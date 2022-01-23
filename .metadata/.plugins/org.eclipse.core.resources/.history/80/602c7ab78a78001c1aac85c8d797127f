@@ -1,0 +1,22 @@
+
+public class BarLoops {
+	public static final int REPS = 4;	// set repetitions (outer loop)
+	public static final int RANGE = 9;	// set length of string (inner loop)
+	
+	public static void main(String[] args) {
+		
+		String bars = "";
+		String numbers = "";
+		
+		for (int i = 1; i <= REPS; i++) {
+			for (int k = 1; k <= RANGE; k++) {
+				numbers += k;
+				bars += " ";
+			}
+			bars += "|";
+			numbers += '0';
+		}
+		System.out.println(bars);
+		System.out.println(numbers);
+	}
+}

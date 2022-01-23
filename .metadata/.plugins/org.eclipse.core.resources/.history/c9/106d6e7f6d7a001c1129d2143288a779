@@ -1,0 +1,27 @@
+/* 
+ * Theodore Miller
+ * Assignment 3
+ * This program calculates the distance between two point on a sphere (like Earth) 
+*/
+
+import java.util.*;	// includes Scanner
+
+public class SphericalDistance {
+	// define class constant for radius of Earth
+	public static final double EARTHRADIUS = 6732.795;	// km
+	
+	public static void main(String[] args) {
+	Scanner console = new Scanner(Systemlin);
+	
+	// prompt for input
+	// first city
+	
+	System.out.print("City 1 Latitude: ");
+	double city1Lat = console.nextDouble();
+	
+	System.out.print("City 1 Longitude: ");
+	double city1Long = console.nextDouble();
+	
+	System.out.println("City 1 longitude: " + city1Long +" and latitude: " + city1Lat);
+	}
+}
