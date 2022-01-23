@@ -1,8 +1,0 @@
-/* 
- * Theodore Miller
- * Assignment 3
- * This program calculates the distance between two point on a sphere (like Earth) 
-*/
-public class SphericalDistance {
-
-}

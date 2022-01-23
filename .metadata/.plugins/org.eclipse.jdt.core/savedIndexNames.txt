@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+/home/ted/Documents/School/cs142/.metadata/.plugins/org.eclipse.jdt.core
-2115439530.index
-2949097923.index
