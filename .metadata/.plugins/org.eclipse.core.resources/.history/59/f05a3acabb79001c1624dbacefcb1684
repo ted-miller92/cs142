@@ -1,8 +1,0 @@
-// this program prompts for information aobut a loan and
-// computes the monthly mortage payment
-
-import java.util.*; // imports scanner
-
-public class Mortgage {
-	
-}
