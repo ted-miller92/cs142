@@ -32,6 +32,4 @@ public class SumOfCubes {
         int sumOfCubes = (int)( Math.pow(i, 3) + Math.pow(j, 3) + Math.pow(k, 3) );
         return sumOfCubes;
     }
-
-
 }

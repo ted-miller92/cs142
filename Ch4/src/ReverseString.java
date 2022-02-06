@@ -1,14 +1,12 @@
 public class ReverseString {
     public static void main(String[] args){
-
-
-        public static String reverse(String phrase){
-            String phrase = "";
-            for (int i = 0; i < phrase.length(); i ++){
-                result = phrase.charAt(i) + result;
-            }
-            return result;
+        reverse("Hello world");
+    }
+    public static String reverse(String phrase){
+        String result = "";
+        for (int i = 0; i < phrase.length(); i++){
+            result = phrase.charAt(i) + result;
         }
-        reverse("Hellow, world!");
+        return result;
     }
 }
